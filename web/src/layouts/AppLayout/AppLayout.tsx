@@ -6,9 +6,9 @@ type AppLayoutProps = {
 
 const AppLayout = ({ children }: AppLayoutProps) => {
   return (
-    <div className="w-full min-h-screen flex flex-col">
+    <div className="w-full min-h-screen flex flex-col bg-gray-900">
       <Header />
-      <main className="flex flex-col flex-1 mx-auto w-[90%] md:w-[85%] lg:w-[80%] max-w-[900px] p-10 min-h-(100vh - 68px) bg-light-100">
+      <main className="flex-1 mx-auto w-[90%] md:w-[85%] lg:w-[80%] max-w-[900px] h-full">
         {children}
       </main>
     </div>
