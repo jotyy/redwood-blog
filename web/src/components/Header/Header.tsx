@@ -27,6 +27,7 @@ const Header = () => {
         <nav className="flex flex-row space-x-4">
           <NavLink path="/" name="HOME" />
           <NavLink path="/blog" name="BLOG" />
+          <NavLink path="/about" name="ABOUT" />
         </nav>
       </div>
     </header>

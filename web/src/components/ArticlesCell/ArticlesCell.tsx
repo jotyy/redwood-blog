@@ -1,8 +1,8 @@
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 
 import type { FindPosts } from 'types/graphql'
 
-import type { CellSuccessProps, CellFailureProps } from '@redwoodjs/web'
+import type { CellFailureProps, CellSuccessProps } from '@redwoodjs/web'
 
 import BlogCard from '../BlogCard/BlogCard'
 

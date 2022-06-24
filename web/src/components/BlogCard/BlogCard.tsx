@@ -1,16 +1,20 @@
 import { Link, routes } from '@redwoodjs/router'
 
 interface Props {
+  id: string
   title: string
   body: string
   tags: string[]
 }
 
-const BlogCard = ({ title, body, tags }: Props) => {
+const BlogCard = ({ id, title, body, tags }: Props) => {
   return (
     <div className="bg-primary p-0.5 rounded-lg transition hover:-translate-y-2">
       <div className="bg-gray-900 p-5 h-full rounded-lg">
-        <Link to={routes.article()} className="text-xl text-white font-bold">
+        <Link
+          to={routes.article({ id })}
+          className="text-xl text-white font-bold"
+        >
           {title}
         </Link>
         <div className="flex flex-col md:flex-row items-start mt-1">

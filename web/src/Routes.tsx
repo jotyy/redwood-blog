@@ -22,8 +22,9 @@ const Routes = () => {
         <Route path="/posts/{id}" page={PostPostPage} name="post" />
         <Route path="/posts" page={PostPostsPage} name="posts" />
       </Set>
-      <Route path="/article" page={ArticlePage} name="article" />
       <Set wrap={AppLayout}>
+        <Route path="/about" page={AboutPage} name="about" />
+        <Route path="/blog/{id:String}" page={ArticlePage} name="article" />
         <Route path="/blog" page={BlogPage} name="blog" />
         <Route path="/" page={HomePage} name="home" />
         <Route notfound page={NotFoundPage} />
