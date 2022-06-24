@@ -14,6 +14,7 @@ import AppLayout from './layouts/AppLayout/AppLayout'
 const Routes = () => {
   return (
     <Router>
+      <Route path="/article" page={ArticlePage} name="article" />
       <Set wrap={AppLayout}>
         <Route path="/blog" page={BlogPage} name="blog" />
         <Route path="/about" page={AboutPage} name="about" />

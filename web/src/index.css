@@ -11,3 +11,6 @@
 /**
  * END --- SETUP TAILWINDCSS EDIT
  */
+.bg-primary {
+  @apply bg-gradient-to-r from-cyan-400 to-blue-100;
+}

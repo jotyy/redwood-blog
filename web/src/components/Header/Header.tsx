@@ -19,10 +19,10 @@ const NavLink = ({ name, path }: NavLinkProps) => {
 
 const Header = () => {
   return (
-    <header className="fixed w-full shadow-lg py-4">
+    <header className="fixed z-10 w-full shadow-lg py-4 bg-gray-900">
       <div className="flex flex-row justify-between items-center mx-auto w-[90%] md:w-[85%]">
-        <h2 className="text-3xl font-extrabold font-mono text-cyan-300">
-          REDWOOD<span className="font-light text-blue-100">BLOG</span>
+        <h2 className="text-3xl font-bold bg-primary text-transparent bg-clip-text">
+          REDWOOD BLOG
         </h2>
         <nav className="flex flex-row space-x-4">
           <NavLink path="/" name="HOME" />
