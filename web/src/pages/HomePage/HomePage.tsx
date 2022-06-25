@@ -16,8 +16,8 @@ const HomePage = () => {
         </p>
         <p className="text-2xl text-gray-400 mt-8">Fullstack Engineer/Devops</p>
         <p className="text-sm text-gray-500 mt-4">
-          Currently working on Blockchain development. Building something like
-          web3.js and ethers.js
+          Currently working on Blockchain development. Building a library like
+          web3.js and ethers.js.
         </p>
         <button className="w-40 bg-primary px-4 py-2 rounded-lg text-xl font-bold shadow-md mt-6 transition hover:-translate-y-1">
           Contact me!
